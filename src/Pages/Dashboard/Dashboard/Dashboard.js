@@ -18,6 +18,7 @@ const Dashboard = () => {
     const {admin,logout,user} = useAuth();
     return (
         <div>
+            {/* <div className="w-100 bg-success  text-white fs-2 py-1 dashboard-name navbar-fixed-top">Dashboard</div> */}
             
             <div className="sidebar">
                 <Link className="active" to='/' >Home</Link>
@@ -40,11 +41,10 @@ const Dashboard = () => {
                 <p className=" user-name text-success" ><i className="fas fa-user-tie"></i> {user?.displayName}</p>
 
                 </div>
+               
 
-                <div className="content">
-                    {/* <Navigation></Navigation> */}
-                    
-                
+                <div className="content p-0"> 
+                <div className="w-100 bg-success  text-white fs-2 py-1 dashboard-name navbar-fixed-top">Dashboard</div>  
                 <Switch>
                     <Route exact path={path}>
                         {!admin &&  <MyOrders></MyOrders>}
@@ -79,6 +79,7 @@ const Dashboard = () => {
                     </Route> */}
 
                 </Switch>
+                
                 </div>
         </div>
     );

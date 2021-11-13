@@ -1,3 +1,10 @@
+.dashboard-name {
+  /* padding-left: 16px; */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
 .sidebar {
   margin: 0;
   padding: 0;
@@ -7,11 +14,7 @@
   height: 100%;
   overflow: auto;
 }
-.user-name {
-  /* color: currentColor; */
-  /* cursor: not-allowed; */
-  /* text-decoration: none; */
-}
+
 .sidebar a {
   display: block;
   color: black;
