@@ -1,0 +1,31 @@
+.table-modified tbody tr td {
+}
+.table-modified tbody tr:nth-child(odd) {
+  background-color: rgba(15, 151, 230, 0.171);
+}
+.table-modified td img {
+  width: 80px;
+  border-radius: 10px;
+}
+@media only screen and (max-device-width: 540px) {
+  .table-modified thead {
+    display: none;
+  }
+  .table-modified,
+  .table-modified tbody,
+  .table-modified tr,
+  .table-modified td {
+    display: block;
+    width: 100%;
+  }
+  .table-modified td {
+    text-align: right;
+    position: relative;
+  }
+  .table-modified td::before {
+    content: attr(data-label);
+    left: 0;
+    position: absolute;
+    font-weight: 500;
+  }
+}

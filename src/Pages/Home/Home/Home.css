@@ -1,0 +1,4 @@
+.review-box {
+  max-height: 700px;
+  overflow: scroll;
+}

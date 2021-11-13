@@ -1,0 +1,29 @@
+.login {
+  padding: 30px 10px;
+  background-color: rgba(148, 210, 251, 0.294);
+  border-radius: 20px;
+}
+.login input {
+  padding: 12px;
+}
+.login p {
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.google-btn {
+  border: none;
+  width: 300px;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.685);
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.185);
+}
+.login button img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

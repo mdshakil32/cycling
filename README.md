@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+Hi, I am Md Shakil. The devloper of this react app.
+
+# Live Link
+
+...
+
+# What is Cycling
+
+This is a niche type website. It means this website is full of a single specific type of product. I have designed this for cycle products. But a shop owner can easily modify this site for their particular product. A customer can easily make order and monitor his ordered product. Also there is a dashboard for Admin to control everything of this website. Admin can easily update customer , products, orderd items and many more..
+
+# Components that used to build this project
+
+HTML,CSS,Bootstrap,React,React Router,Firebase Authentication and Mongo DB are the main components of this project. There are some other things also used.
+
+# Getting Started with Cycling React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
