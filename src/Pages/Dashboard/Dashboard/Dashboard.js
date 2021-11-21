@@ -23,20 +23,21 @@ const Dashboard = () => {
             <div className="sidebar">
                 <Link className="active" to='/' >Home</Link>
                 
-                {!admin && 
-                <div>
+                
+                <div >
                     <Link to={`${url}/myOrders`} ><i className="fas fa-shopping-bag"></i> My Orders</Link>
                     <Link to={`${url}/review`} ><i className="fas fa-star-half-alt"></i> Add Review</Link>
-                    <Link to={`${url}/payment`} ><i className="fas fa-money-check-alt"></i>  Payment</Link></div>
-                }
-                {admin &&   
+                    <Link to={`${url}/payment`} ><i className="fas fa-money-check-alt"></i>  Payment</Link>
+                </div>
+                
+                 
                 <div>
                     <Link to={`${url}/manageAllOrder`} ><i className="fas fa-tasks"></i> Manage All Orders</Link>
                     <Link to={`${url}/addProduct`} ><i className="fas fa-plus"></i> Add A Product</Link>
                     <Link to={`${url}/makeAdmin`} ><i className="fas fa-user-plus"></i> Make Admin</Link>
                     {/* <Link to={`${url}/manageProducts`} >Manage Products</Link> */}
                 </div>
-                }
+                
                 <Link to='/' onClick={logout} className="text-danger" ><i className="fas fa-sign-out-alt"></i> Logout</Link>
                 <p className=" user-name text-success" ><i className="fas fa-user-tie"></i> {user?.displayName}</p>
 

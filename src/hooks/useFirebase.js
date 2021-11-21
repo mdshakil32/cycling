@@ -57,7 +57,7 @@ const useFirebase =()=>{
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             const user = userCredential.user;
-            const destination = location?.state?.from || '/';
+            const destination = location?.state?.from || '/dashboard';
             history.replace(destination);
             setUser(user);
         })
